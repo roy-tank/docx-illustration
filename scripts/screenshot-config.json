@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://10.0.239.127:60443",
+  "loginUrl": "https://10.0.239.127:60443/login",
+  "framework": null,
+  "httpAuth": { "username": "ssl", "password": "K0a1@2023" },
+  "formAuth": { "username": "superadmin", "password": "12345678" },
+  "screenshotDir": "screenshot",
+  "targets": [
+    { "section": "7.1.1", "label": "配置管理", "menu": ["服务管理", "应用代理"], "tab": "配置管理" },
+    { "section": "7.1.2", "label": "公共参数", "menu": ["服务管理", "应用代理"], "tab": "公共参数" },
+    { "section": "8.1", "label": "设备证书", "menu": ["证书管理", "设备证书"], "tab": null },
+    { "section": "11.1.4", "label": "资源监控", "menu": ["系统管理", "系统信息"], "tab": "资源监控" }
+  ]
+}
