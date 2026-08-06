@@ -1,11 +1,11 @@
 /**
  * screenshot.js - 阶段三：Playwright 自动化截图（框架自适应，登录可选）
  *
- * 用法:
+ * 用法（playwright 已全局安装于本机，无需再装）:
  *   1. 复制 screenshot-config.json 为实际配置，填入登录信息与截图清单
- *   2. npm init -y && npm install playwright  （首次）
- *   3. npx playwright install chromium          （首次）
- *   4. node screenshot.js screenshot-config.json
+ *   2. node screenshot.js screenshot-config.json
+ *   注意: require('playwright') 依赖 NODE_PATH（已写入 ~/.zshenv）
+ *   若浏览器缺失: npx playwright install chromium
  *
  * 登录（可选）:
  *   - 不需要登录: loginUrl: null，脚本跳过登录直接导航
